@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Timelapsify",
+  "version": "1.0",
+  "description": "Download and play YouTube videos as a timelapse.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "nativeMessaging"
+  ],
+  "browser_action": {
+    "default_title": "Timelapsify",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "applications": {
+    "gecko": {
+      "id": "timelapsify@example.com"
+    }
+  }
+}
