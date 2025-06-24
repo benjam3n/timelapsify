@@ -6,6 +6,13 @@ timelapse at a selected speed (2x–50x).
 
 ## Usage
 
+### Automatic setup
+
+Run `./install.sh` on an Ubuntu system to install the required
+dependencies and register the native messaging host automatically.
+
+### Manual setup
+
 1. Install `yt-dlp` and `ffmpeg` on your system.
 2. Copy `timelapsify.py` somewhere on your system and create a native
    messaging host manifest pointing to it. For example on Linux:
